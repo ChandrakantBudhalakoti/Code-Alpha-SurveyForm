@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@200&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Blinker", sans-serif;
+  font-family: "Varela Round", sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNob3BwaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.heading h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-shadow: 0 0 1.5px rgb(62, 60, 60);
+}
+
+.heading p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+form {
+  padding: 20px;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+  margin: 10px 5px 0 10px;
+}
+
+.que {
+  color: #3498db;
+  margin: 5px;
+  padding: 8px 120px 0 18px;
+  border: 3px solid gray;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.btn button {
+  font-size: 16px;
+  width: 90px;
+  margin: 12px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #84a5d7;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page1-btn1{
+  padding: 18px 13px 15px 10px;
+  text-decoration: none;
+}
+
+
+
+button:hover{
+  background-color: #000;
+  color: #fff;
+}   
+
+
+
+.page2-btn1{
+  padding: 18px 0 15px 0;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: #fff;
+}
+
+.page2-btn2{
+  padding: 18px 15px 15px 10px;
+  text-decoration: none;
+}
+
+
+.page3-btn1{
+  padding: 18px 0 15px 0;
+  text-decoration: none;
+}
+
+#text-area{
+  padding: 16px;
+  font-size: 18px;
+  margin: 5px;
+}
+
